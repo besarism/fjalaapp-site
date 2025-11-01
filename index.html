@@ -21,6 +21,10 @@
 
     <title>Fjala - Mëso Shqip, Ruaj Traditën</title>
 
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="icon.png">
+    <link rel="apple-touch-icon" href="icon.png">
+
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -35,7 +39,7 @@
         <div class="container">
             <div class="header-content">
                 <a href="index.html" class="logo">
-                    <div class="logo-icon">F</div>
+                    <img src="icon.png" alt="Fjala" class="logo-image">
                     <span>Fjala</span>
                 </a>
                 <nav>
@@ -91,7 +95,7 @@
                 <div class="feature-card">
                     <div class="feature-icon">🔤</div>
                     <h3>36 Albanian Letters</h3>
-                    <p>Complete alphabet with native pronunciation for every letter, including special Albanian characters like Ë, Ç, and Xh.</p>
+                    <p>Complete alphabet including special Albanian characters like Ë, Ç, and Xh with audio support for each letter.</p>
                 </div>
 
                 <div class="feature-card">
@@ -119,9 +123,9 @@
                 </div>
 
                 <div class="feature-card">
-                    <div class="feature-icon">🕌</div>
-                    <h3>Faith-Friendly</h3>
-                    <p>Designed with Muslim families in mind - no music, only gentle sound effects and voice guidance.</p>
+                    <div class="feature-icon">🎨</div>
+                    <h3>Colorful & Engaging</h3>
+                    <p>Vibrant designs and fun animations keep children excited and motivated to learn more each day.</p>
                 </div>
             </div>
         </div>
@@ -158,26 +162,50 @@
     <section class="pricing">
         <div class="container">
             <h2 class="section-title">Start Learning Today</h2>
+            <p class="section-subtitle">Start with letter A free • 3-day free trial for full access</p>
 
-            <div class="pricing-card">
-                <h3>Full Access</h3>
-                <div class="price">$4.99<span class="price-period">/month</span></div>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; max-width: 900px; margin: 0 auto;">
+                <!-- Monthly Plan -->
+                <div class="pricing-card">
+                    <h3>Monthly</h3>
+                    <div class="price">€3.99<span class="price-period">/month</span></div>
+                    <p style="color: var(--text-light); margin-bottom: 1.5rem;">Flexible monthly subscription</p>
 
-                <ul class="pricing-features">
-                    <li>Start with letter A free</li>
-                    <li>3-day free trial for full access</li>
-                    <li>All 36 Albanian letters</li>
-                    <li>Interactive tracing exercises</li>
-                    <li>Fun learning games</li>
-                    <li>Parent progress dashboard</li>
-                    <li>Offline learning mode</li>
-                    <li>Regular content updates</li>
-                    <li>Cancel anytime</li>
-                </ul>
+                    <ul class="pricing-features">
+                        <li>All 36 Albanian letters</li>
+                        <li>Interactive tracing exercises</li>
+                        <li>Fun learning games</li>
+                        <li>Parent progress dashboard</li>
+                        <li>Offline learning mode</li>
+                        <li>Regular content updates</li>
+                        <li>Cancel anytime</li>
+                    </ul>
 
-                <a href="#" class="btn btn-primary" style="width: 100%; margin-top: 1rem;">Start Free Trial</a>
-                <p style="margin-top: 1rem; color: var(--text-light); font-size: 0.9rem;">No credit card required for letter A. Cancel anytime during trial.</p>
+                    <a href="#" class="btn btn-outline" style="width: 100%; margin-top: 1rem;">Start Free Trial</a>
+                </div>
+
+                <!-- Yearly Plan -->
+                <div class="pricing-card" style="border-color: var(--accent-purple); position: relative;">
+                    <div style="position: absolute; top: -12px; right: 20px; background: var(--accent-purple); color: white; padding: 4px 12px; border-radius: 20px; font-size: 0.85rem; font-weight: 600;">Best Value</div>
+                    <h3>Yearly</h3>
+                    <div class="price">€39<span class="price-period">/year</span></div>
+                    <p style="color: var(--accent-purple); font-weight: 600; margin-bottom: 1.5rem;">Save €8.88 per year!</p>
+
+                    <ul class="pricing-features">
+                        <li>All 36 Albanian letters</li>
+                        <li>Interactive tracing exercises</li>
+                        <li>Fun learning games</li>
+                        <li>Parent progress dashboard</li>
+                        <li>Offline learning mode</li>
+                        <li>Regular content updates</li>
+                        <li>Cancel anytime</li>
+                    </ul>
+
+                    <a href="#" class="btn btn-primary" style="width: 100%; margin-top: 1rem;">Start Free Trial</a>
+                </div>
             </div>
+
+            <p style="margin-top: 2rem; color: var(--text-light); text-align: center; font-size: 0.9rem;">No credit card required for letter A. Cancel anytime during trial.</p>
         </div>
     </section>
 
@@ -199,7 +227,7 @@
         <div class="container">
             <div class="footer-content">
                 <div class="logo" style="justify-content: center; color: var(--white); margin-bottom: 1rem;">
-                    <div class="logo-icon">F</div>
+                    <img src="icon.png" alt="Fjala" class="logo-image">
                     <span>Fjala</span>
                 </div>
 
